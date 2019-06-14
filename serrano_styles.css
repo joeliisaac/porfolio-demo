@@ -1,0 +1,173 @@
+
+
+
+#mainheader{
+/****************************************************************
+*Q2-2 limit content div to 60% and center the page ( I centered everything independently)
+*****************************************************************/
+
+
+}
+/** home header ****/
+#head_page{
+position: absolute;
+
+padding-left: 20%;
+padding-top: 120px;
+z-index: 2;
+
+
+
+}
+
+#header_main{
+
+  font-family: 'Oswald', sans-serif;
+  font-size: 80px;
+
+/*****************************************************************
+Q2-1 set the background color to a darker color and the text to a lighter color**
+*********************************************************************************************/
+
+  color: #fff;
+
+
+
+}
+
+/**about me**/
+#about{
+/*****************************************************************
+I made divs Q1-3 function as columns by adding float left to the div (about) and div(wokr history)*****
+**********************************************************************/
+  float: left;
+  color: 	#008080;
+  padding-bottom: 80px; background-color: #FFE4C4
+
+
+}
+#header_about_me{
+padding-top: 400px;
+font-family: 'Oswald', sans-serif;
+text-align: center;
+
+
+
+}
+
+
+
+#line{
+  margin-top: 30px;
+    width: 50%;
+    height: 2px;
+    background-color: orange;
+    border: none;
+}
+
+#about_my_goals_para{
+
+  font-size: 23px;
+  font-family: 'PT Serif', serif;
+  text-align: justify;
+  width: 50%;
+padding-left: 25%;
+
+}
+
+/****resumed components*****/
+/********************************************************************
+*Q2-5 change the style of work history by
+1. chaning text color
+2. changing fond outside
+3. changing text alignment
+4. chaning height
+5. changing width
+
+*********************************************************************/
+#work_history{
+  float: left;
+  color: #fff;
+
+font-family: 'Oswald', sans-serif;
+text-align: center;
+
+}
+#history_components{
+  box-sizing: border-box;
+
+
+}
+
+
+#effia {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: 300px;
+
+}
+
+#MrsGreens{
+  float: left;
+width: 30%;
+height: 300px;
+}
+
+#UMD_assistant{
+
+  float: left;
+width: 30%;
+height: 300px;
+}
+
+#li {
+  font-size: 18px;
+  width: 90%;
+  list-style-position: outside;
+  text-align: left;
+  margin-left: 1em;
+}
+#work_history:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/***background color**/
+html {
+
+background-color: #458B74;
+
+
+
+}
+
+/** picture up top**/
+#my_pic{
+  border-radius: 50%;
+}
+
+#back_img{
+/*****************************************************************
+**Q2-4 change the size of the image and it has an id so it only changes this image size*
+**********************************************************************/
+  position:absolute;
+  		top: 0px;
+  		left: 0px;
+      width: 100%;
+      height: 45%;
+  		z-index: 1;
+
+}
+
+#my_pic {
+  float: left;
+
+  position:absolute;
+		top: 90px;
+		left: 25px;
+		z-index: 2;
+
+}
